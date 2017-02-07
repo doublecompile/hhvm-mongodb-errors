@@ -1,0 +1,23 @@
+{
+    "name": "doublecompile/hhvm-mongodb-crash",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Hawk",
+            "email": "jonathan@hawk.ninja"
+        }
+    ],
+    "require": {
+        "hhvm": ">=3.15.0",
+        "facebook/xhp-lib": "^2.2"
+    },
+    "autoload": {
+        "classmap": [
+            "xhp"
+        ],
+        "psr-4": {
+            "Crashy\\": "src/"
+        }
+    }
+}
